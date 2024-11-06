@@ -6,6 +6,17 @@ This project grew my infrastructure and automation skills, as I utilized Kuberne
 
 In this project I created kubernetes deployment files, created services to enable network connectivity of pods in my cluster to internal pods and external users.
 
+In this project I:
+1. Created a kubernetes deployment file to deploy a web based voting application to cast votes
+2. Created a NodePort service to expose the web based voting application to external users
+3. Created a kubernetes deployment file to deploy redis to capture the votes on the web based voting application
+4. Created a ClusterIP service to enable pods in my cluster to connect to redis
+5. Created a kubernetes deployment file to deploy a postgres db to store the vote results
+6. Created a ClusterIP service to enable pods in my cluster to connect to postgres
+7. Created a kubernetes deployment file to deploy a worker based on .Net to update vote results from redis to postgres
+8. Created a kubernetes deployment file to deploy a web based vote result application to view vote results
+9. Created a NodePort service to expose the web based result application to external users
+
 The diagram below illustrates the architecture for this solution.
 
 ![image](https://github.com/user-attachments/assets/419bbe27-c9b9-40d4-ad1a-141a83f8e91b)
