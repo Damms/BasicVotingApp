@@ -4,8 +4,6 @@ This project is based on the course resources offered by https://kodekloud.com/
 ## Objective
 This project grew my infrastructure and automation skills, as I utilized Kubernetes to deploy a microservice architecture solution.
 
-In this project I created kubernetes deployment files, created services to enable network connectivity of pods in my cluster to internal pods and external users.
-
 In this project I:
 1. Created a kubernetes deployment file to deploy a web based voting application to cast votes
 2. Created a NodePort service to expose the web based voting application to external users
