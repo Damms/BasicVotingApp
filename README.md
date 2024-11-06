@@ -8,6 +8,7 @@ In this project I created kubernetes deployment files, created services to enabl
 
 The diagram below illustrates the architecture for this solution.
 
+![image](https://github.com/user-attachments/assets/419bbe27-c9b9-40d4-ad1a-141a83f8e91b)
 
 
 
