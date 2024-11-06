@@ -1,4 +1,4 @@
-# Using Kubernetes to deploy a simple microservice architecture
+# Using Kubernetes to deploy a microservice solution
 This project is based on the course resources offered by https://kodekloud.com/
 
 ## Objective
