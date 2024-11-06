@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
   - name: result-app
-    image: kodecloud/examplevotingapp_result:v1
+    image: kodekloud/examplevotingapp_result:v1
     resources:
       limits:
         memory: "128Mi"
